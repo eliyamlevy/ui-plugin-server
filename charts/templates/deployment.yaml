@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "plugin-server.fullname" . }}
+  name: {{ .Chart.Name }}
   labels:
     {{- include "plugin-server.labels" . | nindent 4 }}
 spec:
