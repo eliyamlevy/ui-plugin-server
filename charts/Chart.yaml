@@ -13,6 +13,6 @@ description: A base Plugin Server Chart for adding plugins to Rancher
 name: test-plugin
 type: application
 keywords:
-- applications
-- infrastructure
+  - applications
+  - infrastructure
 version: 0.1.0
